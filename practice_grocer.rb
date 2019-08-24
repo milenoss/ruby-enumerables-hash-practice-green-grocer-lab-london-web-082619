@@ -48,6 +48,7 @@ clearance_cart.each do |item, attribute_hash|
 end
 total = (total *0.9) if total > 100 
 
+
  
  
  
