@@ -1,6 +1,10 @@
 
 # begin 
 # ==
+def consolidate_cart(cart)
+  new_hash = {}
+  cart.each do |key| 
+    
 # We will pass one argument 'cart'
 # We will then  create an empty hash 'new_hash => {}' to keep the new results. 
 # Second we will iterate over the the the cart with each.do and pass a variable key in the block. 
